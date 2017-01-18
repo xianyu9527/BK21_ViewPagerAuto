@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager_main"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+
+    <TextView
+        android:id="@+id/textView_main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/viewPager_main"
+        android:background="#8bbb"
+        android:gravity="center"
+        android:text="广告标题"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/viewPager_main"
+        android:gravity="right"
+        android:orientation="horizontal">
+    </RadioGroup>
+
+
+</RelativeLayout>

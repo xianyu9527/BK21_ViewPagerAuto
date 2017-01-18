@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="arrImages">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+    </array>
+
+    <string-array name="arrTitles">
+        <item>干露露和她的妈咪</item>
+        <item>朴树又回来了...</item>
+        <item>东风吹来春满地</item>
+        <item>乐视TV大派送</item>
+        <item>屌丝的逆袭</item>
+    </string-array>
+</resources>
